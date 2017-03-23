@@ -1,0 +1,20 @@
+{
+  "name": "pkh-theme",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "pkh personal theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/pkhpkh/atom-pkhpkh-dark-syntax.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "apmInstallSource": {
+    "type": "git",
+    "source": "pkhpkh/atom-pkhpkh-dark-syntax",
+    "sha": "1d9a84736f294fde0fdf22d32072e1291bdfc8fe"
+  }
+}
