@@ -11,10 +11,5 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  },
-  "apmInstallSource": {
-    "type": "git",
-    "source": "pkhpkh/atom-pkhpkh-dark-syntax",
-    "sha": "1f5136fcc859c7054cacab3ebc95ef35ac99eb64"
   }
 }
