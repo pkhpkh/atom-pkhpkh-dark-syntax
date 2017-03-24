@@ -6,9 +6,11 @@
 
 
 // Monochrome -----------------------------------
-@mono-1: hsl(@syntax-hue, 25%, 78%); // default text
-@mono-2: hsl(@syntax-hue, 15%, 55%);
-@mono-3: hsl(@syntax-hue, 17%, 45%);
+@mono-1: hsl(@syntax-hue, 15%, 55%);
+@mono-2: darken(@mono-1, 10%);
+@mono-3: darken(@mono-2, 10%);
+@mono-4: darken(@mono-3, 10%);
+@mono-5: darken(@mono-4, 10%);
 
 // Colors -----------------------------------
 @hue-1:   hsl(197, 92%, 78%); // <-cyan
@@ -28,9 +30,9 @@
 // Base colors -----------------------------------
 @syntax-fg:     @mono-1;
 @syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
-@syntax-gutter: darken(@syntax-fg, 36%);
+@syntax-gutter: @mono-2;
 @syntax-guide:  fade(@syntax-fg, 15%);
 @syntax-accent: hsl(@syntax-hue, 100%, 66% );
 
-@syntax-function-color: darken(@hue-3, 5%);
-@syntax-function-call-color: lighten(@syntax-function-color, 2%);
+@syntax-function-color: darken(@hue-3, 20%);
+@syntax-function-call-color: lighten(@syntax-function-color, 10%);
